@@ -1,7 +1,12 @@
 # Frontend:
 
+```bash
 cd client
+```
+
+```bash
 npm i
+```
 npm run start
 
 # Backend 
