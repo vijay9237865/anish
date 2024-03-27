@@ -1,0 +1,230 @@
+{
+  "headerDetails": {
+    "header": {
+      "auditInfo": {
+        "createdBy": "palkinj",
+        "createdDate": 1697108121641,
+        "updatedBy": "CosmoService",
+        "updatedDate": 1697113856387
+      },
+      "contractDetails": {
+        "contractualEndDate": 1706572800000,
+        "contractualStartDate": 1690848000000,
+        "currency": "USD",
+        "initialContractType": "GUARANTEED_MAXIMUM_PRICE",
+        "links": [],
+        "requestedBy": "palkinj",
+        "substantialCompletionDate": 1703980800000
+      },
+      "defaultFinancingType": "TRADITIONAL_LEASE",
+      "defaultFundingStructure": {
+        "fundingContributionDetailList": [
+          { "fundingContributionByPercent": 100, "fundingPartner": "OWNER" }
+        ],
+        "name": "Amazon capital"
+      },
+      "fundingSetups": [
+        {
+          "fundingSources": [
+            {
+              "amount": { "currencyCode": "USD", "value": 8989.99 },
+              "fundingSourceType": "Available"
+            }
+          ],
+          "fundingStructure": {
+            "fundingContributionDetailList": [
+              {
+                "fundingContributionByPercent": 100,
+                "fundingPartner": "DEVELOPER"
+              }
+            ],
+            "name": "Developer/Landlord capital"
+          }
+        },
+        {
+          "fundingSources": [
+            {
+              "amount": { "currencyCode": "USD", "value": 146665.44 },
+              "fundingSourceType": "Available"
+            }
+          ],
+          "fundingStructure": {
+            "fundingContributionDetailList": [
+              { "fundingContributionByPercent": 100, "fundingPartner": "OWNER" }
+            ],
+            "name": "Amazon capital"
+          }
+        }
+      ],
+      "id": "b8297ce8-850d-4e60-b596-b7ad35dea3e9",
+      "identifiers": {
+        "siteId": { "id": "a1X22000000NgiaEAC", "source": "SHIELD2_0" },
+        "subBudgetIds": ["SBE01-16249-13436"]
+      },
+      "isIncludedInCHR": true,
+      "legalPODetailsList": [
+        {
+          "purchaseOrderId": "11655353",
+          "purchaseRequisitionId": "13696593",
+          "source": "COUPA"
+        }
+      ],
+      "name": "po-chr-test-final",
+      "number": "PO-QXY9-16",
+      "projectId": { "id": "a00D4000005kSaAIAU", "source": "SHIELD2_0" },
+      "status": "OPEN",
+      "vendorInfo": {
+        "payeeSiteId": { "id": "188736552", "source": "PAYEE_SERVICE" },
+        "paymentTerm": "NET_45",
+        "tenant": {
+          "id": "188736552",
+          "source": "PAYEE_SERVICE",
+          "tenantRole": "DEVELOPER"
+        }
+      },
+      "versionId": 9
+    },
+    "isChangePending": false,
+    "poCostBreakupDetailsList": [
+      {
+        "amount": { "currencyCode": "USD", "value": 146665.44 },
+        "fundingPartner": "OWNER",
+        "splitId": "b2d62029-57e8-4e6b-890c-251422a8ba8d"
+      },
+      {
+        "amount": { "currencyCode": "USD", "value": 8989.99 },
+        "fundingPartner": "DEVELOPER",
+        "splitId": "3add5c0a-c808-408d-9b0b-6d9a5e9fe1ee"
+      }
+    ],
+    "totalAmount": { "currencyCode": "USD", "value": 155655.43 }
+  },
+  "lines": [
+    {
+      "initialContractDetails": {
+        "initialContractValue": { "currencyCode": "USD", "value": 78888.22 },
+        "initialContractualCostType": "GUARANTEED_MAXIMUM_PRICE",
+        "initialQuantity": { "unit": "PERCENT", "value": 10 },
+        "poCostBreakupDetailsList": [
+          {
+            "amount": { "currencyCode": "USD", "value": 78888.22 },
+            "fundingPartner": "OWNER",
+            "splitId": "a9a40022-751f-4a9e-b894-0979562f9a11"
+          }
+        ]
+      },
+      "line": {
+        "contractValue": { "currencyCode": "USD", "value": 78788.22 },
+        "contractualCostType": "GUARANTEED_MAXIMUM_PRICE",
+        "expenseType": "CapEx",
+        "financingType": "TRADITIONAL_LEASE",
+        "fundingSetup": {
+          "fundingSources": [],
+          "fundingStructure": {
+            "fundingContributionDetailList": [
+              { "fundingContributionByPercent": 100, "fundingPartner": "OWNER" }
+            ],
+            "name": "Amazon capital"
+          }
+        },
+        "id": "b3d6d9d0-a579-465a-8e1e-59c940e7467d",
+        "materialId": "358a1e97-ea02-3ec8-8113-69e1d07f368a",
+        "materialVersionId": 1,
+        "number": "00001",
+        "poCostBreakupDetailsList": [
+          {
+            "amount": { "currencyCode": "USD", "value": 78888.22 },
+            "fundingPartner": "OWNER",
+            "splitId": "a9a40022-751f-4a9e-b894-0979562f9a11"
+          }
+        ],
+        "quantity": { "unit": "PERCENT", "value": 10 }
+      }
+    },
+    {
+      "initialContractDetails": {
+        "initialContractValue": { "currencyCode": "USD", "value": 8989.99 },
+        "initialContractualCostType": "GUARANTEED_MAXIMUM_PRICE",
+        "initialQuantity": { "unit": "PERCENT", "value": 2 },
+        "poCostBreakupDetailsList": [
+          {
+            "amount": { "currencyCode": "USD", "value": 8989.99 },
+            "fundingPartner": "DEVELOPER",
+            "splitId": "142ae6b9-88eb-4325-9e5e-839b0aca8d1b"
+          }
+        ]
+      },
+      "line": {
+        "contractValue": { "currencyCode": "USD", "value": 8989.99 },
+        "contractualCostType": "GUARANTEED_MAXIMUM_PRICE",
+        "expenseType": "CapEx",
+        "financingType": "TRADITIONAL_LEASE",
+        "fundingSetup": {
+          "fundingSources": [],
+          "fundingStructure": {
+            "fundingContributionDetailList": [
+              {
+                "fundingContributionByPercent": 100,
+                "fundingPartner": "DEVELOPER"
+              }
+            ],
+            "name": "Developer/Landlord capital"
+          }
+        },
+        "id": "be279101-1596-4fee-a900-e81e7de42e66",
+        "materialId": "daf29b03-6336-3a97-844e-912a9cfe5cfc",
+        "materialVersionId": 1,
+        "number": "00002",
+        "poCostBreakupDetailsList": [
+          {
+            "amount": { "currencyCode": "USD", "value": 8989.99 },
+            "fundingPartner": "DEVELOPER",
+            "splitId": "142ae6b9-88eb-4325-9e5e-839b0aca8d1b"
+          }
+        ],
+        "quantity": { "unit": "PERCENT", "value": 2 }
+      }
+    },
+    {
+      "initialContractDetails": {
+        "initialContractValue": { "currencyCode": "USD", "value": 67777.22 },
+        "initialContractualCostType": "GUARANTEED_MAXIMUM_PRICE",
+        "initialQuantity": { "unit": "LS", "value": 1 },
+        "poCostBreakupDetailsList": [
+          {
+            "amount": { "currencyCode": "USD", "value": 67777.22 },
+            "fundingPartner": "OWNER",
+            "splitId": "bb4ebe1d-74a9-426e-9a7a-12c05f18a251"
+          }
+        ]
+      },
+      "line": {
+        "contractValue": { "currencyCode": "USD", "value": 67877.22 },
+        "contractualCostType": "GUARANTEED_MAXIMUM_PRICE",
+        "expenseType": "CapEx",
+        "financingType": "TRADITIONAL_LEASE",
+        "fundingSetup": {
+          "fundingSources": [],
+          "fundingStructure": {
+            "fundingContributionDetailList": [
+              { "fundingContributionByPercent": 100, "fundingPartner": "OWNER" }
+            ],
+            "name": "Amazon capital"
+          }
+        },
+        "id": "d617fbab-a074-4e1f-8728-21c86f20eeeb",
+        "materialId": "db21c5f5-bd80-3d8e-b12d-fc134897bcdb",
+        "materialVersionId": 1,
+        "number": "00003",
+        "poCostBreakupDetailsList": [
+          {
+            "amount": { "currencyCode": "USD", "value": 67777.22 },
+            "fundingPartner": "OWNER",
+            "splitId": "bb4ebe1d-74a9-426e-9a7a-12c05f18a251"
+          }
+        ],
+        "quantity": { "unit": "LS", "value": 1 }
+      }
+    }
+  ]
+}

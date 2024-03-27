@@ -1,0 +1,25 @@
+.navbar_brand {
+  background: #f3f3f3;
+}
+.navbar_user_icon .dropdown-toggle::after {
+  display: none;
+}
+.navbar_user_icon .dropdown-toggle {
+  outline: none !important;
+  border: none !important;
+}
+
+.navbar_user_icon .dropdown-item:hover {
+  color: rgba(255, 31, 31, 1);
+  background: #f3f3f3;
+}
+
+.navbar_user_icon .dropdown-item:hover .svg-class {
+  stroke: rgba(255, 31, 31, 1);
+}
+.navbar_user_icon .dropdown-item {
+  background: #fff;
+}
+.navbar_user_icon .dropdown-item:focus {
+  background: #f3f3f3;
+}
