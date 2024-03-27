@@ -7,16 +7,32 @@ cd client
 ```bash
 npm i
 ```
+
+```bash
 npm run start
+```
 
 # Backend 
 
+```bash
 cd new_server
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-python3 app.py
+```
+```bash
 
+python3 -m venv .venv
+```
+```bash
+
+source .venv/bin/activate
+```
+```bash
+
+pip install -r requirements.txt
+```
+```bash
+
+python3 app.py
+```
 
 
 
